@@ -1,7 +1,1 @@
-FROM gitpod/workspace-full
-
-USER gitpod
-
-RUN bash -c ". /home/gitpod/.sdkman/bin/sdkman-init.sh && \
-    sdk install java 17.0.7-oracle && \
-    sdk default java 17.0.7-oracle"
+FROM python:3
